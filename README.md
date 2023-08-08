@@ -23,7 +23,7 @@ Google Guava library (for caching)
 Apache HttpClient (or equivalent) for making HTTP requests
 
 Installation
-Clone the repository:   git clone [https://github.com/your-username/weather-forecast-display.git](https://github.com/Anjii-debug/WeatherForecastApplication/edit/main/README.md)
+Clone the repository:   git clone (https://github.com/Anjii-debug/WeatherForecastApplication.git)
 
 Build and run the application:
 

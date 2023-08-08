@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+     <title>Weather Forecast Display Application</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body background="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SZMXphYEipbdr8zi/beautiful-clouds-close-up-weather-background_skp3rq4r__F0000.png">
+ 	<h2>Weather API</h2>
+		<div class="div">
+           <a  href="#" th:href="@{/weather}" style="text-decoration: none"class="link">WEATHER DATA</a>          
+        </div>
+        
+        <form action="weather" method="post">
+            <div>
+                <label><b>Enter the city name to check the weather<b></label>    
+                <input type="text" name="city">
+         
+            <button type="submit">Submit</button>
+               </div>
+        </form>
+    </body>
+</html>
